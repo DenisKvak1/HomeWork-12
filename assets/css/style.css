@@ -1,0 +1,94 @@
+
+      * { 
+        box-sizing: border-box;
+    }
+    body {
+        margin:0
+    }
+    .car {
+        position: absolute;
+        width: 100px;
+        height: auto;
+        animation-delay: 1s;
+        animation: drive 7s linear infinite;
+        animation-fill-mode: forwards;
+        top: 83px;
+        left: 550px;
+    }
+    .road {
+        position: absolute;
+        left: 450px;
+    }
+    @keyframes drive {
+        0% {
+            top: 83px;
+            left: 550px;
+        }
+        15.24%{
+            top: 83px;
+            left: 1120px;
+            transform: rotate(0deg);
+        }
+        15.938%{
+            top: 89px;
+            left: 1130px;
+            transform: rotate(7deg);
+
+        }
+        16.62%{
+            top: 95px;
+            left: 1130px;
+            transform: rotate(13deg);
+        }
+        21.4%{
+            top: 95px;
+            left: 1240px;
+            transform: rotate(85deg);
+        }
+        24.93%{
+            top: 95px;
+            left: 1280px;
+            transform: rotate(93deg);
+        }
+        30.48%{
+            top: 130px;
+            left: 1270px;
+            transform: rotate(90deg);
+        }
+        45.73%{
+            top: 670px;
+            left: 1270px;
+            transform: rotate(90deg);
+        }
+        53.6%{
+            left: 1282px;
+            top: 840px;
+            transform: rotate(180deg);
+        }
+        68.59%{
+            left: 690px;
+            top:840px;
+            transform: rotate(180deg);
+        }
+        74.08%{
+            left: 522px;
+            top:765px;
+            transform: rotate(270deg);
+        }
+        76.5%{
+            left: 532px;
+            top:758px;
+            transform: rotate(270deg);
+        }
+        95.42%{
+            left: 532px;
+            top:230px;
+            transform: rotate(270deg);
+        }
+        100%{
+            top: 83px;
+            left: 550px;
+            transform: rotate(360deg);
+        }
+    }
+    
